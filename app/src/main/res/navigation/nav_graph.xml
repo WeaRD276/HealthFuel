@@ -1,0 +1,41 @@
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            app:startDestination="@id/homeFragment">
+
+    <fragment
+            android:id="@+id/homeFragment"
+            android:name="com.example.healthfuel.HomeFragment"
+            android:label="Home"
+            tools:layout="@layout/fragment_home" />
+
+    <fragment
+            android:id="@+id/trackerFragment"
+            android:name="com.example.healthfuel.TrackerFragment"
+            android:label="Tracker"
+            tools:layout="@layout/fragment_tracker" />
+
+    <fragment
+            android:id="@+id/calendarFragment"
+            android:name="com.example.healthfuel.CalendarFragment"
+            android:label="Calendar"
+            tools:layout="@layout/fragment_calendar" />
+
+    <fragment
+            android:id="@+id/profileFragment"
+            android:name="com.example.healthfuel.ProfileFragment"
+            android:label="Profile"
+            tools:layout="@layout/fragment_profile" />
+
+    <action
+            android:id="@+id/action_homeFragment_to_trackerFragment"
+            app:destination="@id/trackerFragment" />
+
+    <action
+            android:id="@+id/action_homeFragment_to_calendarFragment"
+            app:destination="@id/calendarFragment" />
+
+    <action
+            android:id="@+id/action_homeFragment_to_profileFragment"
+            app:destination="@id/profileFragment" />
+</navigation>

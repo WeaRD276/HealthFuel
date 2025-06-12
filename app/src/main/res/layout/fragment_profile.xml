@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:padding="16dp">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"/>
+
+    <EditText
+            android:id="@+id/email_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorPrimary"
+            android:layout_marginBottom="16dp"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Дата народження"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"/>
+
+    <EditText
+            android:id="@+id/birth_date_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorPrimary"
+            android:layout_marginBottom="16dp"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Стать"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"/>
+
+    <EditText
+            android:id="@+id/gender_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorPrimary"
+            android:layout_marginBottom="16dp"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Зріст"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"/>
+
+    <EditText
+            android:id="@+id/height_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorPrimary"
+            android:layout_marginBottom="16dp"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Маса"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"/>
+
+    <EditText
+            android:id="@+id/weight_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorPrimary"
+            android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Спорт"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"/>
+
+    <Spinner
+        android:id="@+id/sport_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+            android:id="@+id/save_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Зберегти"
+            android:textColor="@android:color/white"
+            android:background="@color/colorPrimary"/>
+
+</LinearLayout>
